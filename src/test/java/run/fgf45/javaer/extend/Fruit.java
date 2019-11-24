@@ -13,7 +13,7 @@ public class Fruit {
         string.add("22");
         string.add("32");
         string.add("42");
-        string.add("15");
+        string.add("115");
 
         string = string.stream().filter(arg -> arg.startsWith("1")).map(arg -> arg + "321").collect(Collectors.toList());
         System.out.println(string);
